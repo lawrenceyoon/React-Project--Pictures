@@ -6,6 +6,14 @@
   background: rgba(0, 0, 0, 0);
 }
 
+.ui.form input[type=text] {
+  color: #606060;
+}
+
+.ui.form input[type=text]:focus {
+  color: black;
+}
+
 .SearchBar label {
   font-size: 1.15em !important;
 }

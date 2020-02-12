@@ -14,4 +14,4 @@ You will also see any lint errors in the console.
 
 ### `App Steps`
 1) Set up boilerplate, removed all previous files in src directory and created own file structure. Imported Semantic-UI CDN into index for CSS. All other apps while learning was made using Class Components, so for this project I decided to go with Functional Component w/ Hooks.
-2) Created SearchBar component and styled it using CSS. 
+2) Created SearchBar component and styled it using CSS. Added onChange event handler, and set SearchBar to a "controlled" component by moving user input into state.
