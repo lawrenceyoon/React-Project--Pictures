@@ -1,0 +1,11 @@
+.SearchBar {
+  padding-top: 40px;
+}
+
+.ui.segment {
+  background: rgba(0, 0, 0, 0);
+}
+
+.SearchBar label {
+  font-size: 1.15em !important;
+}
