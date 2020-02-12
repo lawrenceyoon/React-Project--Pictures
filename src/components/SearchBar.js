@@ -19,7 +19,7 @@ const SearchBar = () => {
       <div className="ui segment">
         <form className="ui form" onSubmit={onFormSubmit}>
           <div className="field">
-            <label>Image Searchasdfasdf: </label>
+            <label>Image Search: </label>
             <input type="text" value={searchTerm} onChange={onInputChange} placeholder="Search..." />
           </div>
         </form>
