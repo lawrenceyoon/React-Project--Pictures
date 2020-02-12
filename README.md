@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-https://lawrenceyoon.github.io/React-Project--Pictures/
+Wait...
 
 ### `App Steps`
 1) Set up boilerplate, removed all previous files in src directory and created own file structure. Imported Semantic-UI CDN into index for CSS. All other apps while learning was made using Class Components, so for this project I decided to go with Functional Component w/ Hooks.
