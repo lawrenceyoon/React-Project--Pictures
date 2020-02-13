@@ -4,7 +4,6 @@ import './App.css';
 import unsplash from '../apis/unsplash';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
-import NatureCard from './NatureCard';
 
 const App = () => {
   // state
@@ -30,7 +29,7 @@ const App = () => {
 
         <div className="ui segment">
           <div className="ui three cards">
-            <NatureCard />
+  
           </div>
         </div>
 
