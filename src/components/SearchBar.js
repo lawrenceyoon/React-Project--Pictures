@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   // state
   const [searchTerm, setsearchTerm] = useState("");
 
   // event handlers
   const onFormSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // prevents page from refreshing itself
+    props.onSubmit(searchTerm);
   };
 
   const onInputChange = (event) => {
     setsearchTerm(event.target.value);
   };
 
+
+  // JSX
   return (
     <div className="SearchBar">
       <div className="ui segment">
