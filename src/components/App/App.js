@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 import './App.css';
-import unsplash from '../apis/unsplash';
-import SearchBar from './SearchBar';
-import ImageList from './ImageList';
+import unsplash from '../../apis/unsplash';
+import SearchBar from '../SearchBar';
+import ImageList from '../ImageList';
 
 const App = () => {
   // state
@@ -26,13 +26,7 @@ const App = () => {
       <div className="ui container">
 
         <SearchBar onSubmit={onFormSubmit} />
-
-        <div className="ui segment">
-          <div className="ui three cards">
-  
-          </div>
-        </div>
-
+        
         <ImageList listOfImages={images} />
 
       </div>
