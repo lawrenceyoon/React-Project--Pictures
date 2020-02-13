@@ -2,8 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 API Used: Unsplash https://unsplash.com/developers
 
 ### `View App`
-
 https://react-project-pictures.now.sh/
+
+### `How It Works`
+Type in any images you want searched into the search bar! Or make a quick selection from one of the three boxes below! It will then connect to the Unsplash API and get 10 images to show on the screen.
 
 ### `App Steps`
 1) Set up boilerplate, removed all previous files in src directory and created own file structure. Imported Semantic-UI CDN into index for CSS. All other apps while learning was made using Class Components, so for this project I decided to go with Functional Component w/ Hooks.
