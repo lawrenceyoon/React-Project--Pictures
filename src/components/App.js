@@ -28,13 +28,13 @@ const App = () => {
 
         <SearchBar onSubmit={onFormSubmit} />
 
-        <ImageList listOfImages={images} />
-
         <div className="ui segment">
           <div className="ui three cards">
             <NatureCard />
           </div>
         </div>
+
+        <ImageList listOfImages={images} />
 
       </div>
     </div>
