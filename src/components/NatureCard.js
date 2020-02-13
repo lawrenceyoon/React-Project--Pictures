@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import unsplash from '../apis/unsplash';
 
 const NatureCard = () => {
   const [term] = useState("nature");
 
 
   const onDivClick = async () => {
-    const response = await axios.get("https://api.unsplash.com/search/photos", {
-      headers: {
-        Authorization: "Client-ID 75068bb46a637ea5e0ce385d5a5c0f8237f59c6e11df77508ce84496112d51de"
-      },
+    const response = await unsplash.get("/search/photos", {
       params: {
         query: term
       }

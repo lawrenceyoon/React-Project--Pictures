@@ -16,6 +16,7 @@ const App = () => {
     });
 
     setImages(response.data.results);
+    console.log(response.data.results); // delete later, just making sure I get lists
   };
 
   return (
