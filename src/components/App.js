@@ -8,6 +8,7 @@ const App = () => {
   // state
   const [images, setImages] = useState([]);
 
+  // event handlers
   const onFormSubmit = async (searchTerm) => { 
     const response = await unsplash.get("/search/photos", {
       params: {
@@ -19,6 +20,7 @@ const App = () => {
     console.log(response.data.results); // delete later, just making sure I get lists
   };
 
+  // JSX
   return (
     <div className="App">
       <div className="ui container">

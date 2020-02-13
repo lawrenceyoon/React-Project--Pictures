@@ -15,7 +15,6 @@ const SearchBar = (props) => {
     setsearchTerm(event.target.value);
   };
 
-
   // JSX
   return (
     <div className="SearchBar">
