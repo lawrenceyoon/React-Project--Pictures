@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+
 import './App.css';
-import SearchBar from './SearchBar';
-import NatureCard from './NatureCard';
 import unsplash from '../apis/unsplash';
+import SearchBar from './SearchBar';
+import ImageList from './ImageList';
+import NatureCard from './NatureCard';
 
 const App = () => {
   // state
@@ -17,22 +19,21 @@ const App = () => {
     });
 
     setImages(response.data.results);
-    console.log(response.data.results); // delete later, just making sure I get lists
   };
 
   // JSX
   return (
     <div className="App">
       <div className="ui container">
+
         <SearchBar onSubmit={onFormSubmit} />
-        Found: {images.length}
+
+        <ImageList listOfImages={images} />
 
         <div className="ui segment">
           <div className="ui three cards">
             <NatureCard />
-
           </div>
-          
         </div>
 
       </div>
