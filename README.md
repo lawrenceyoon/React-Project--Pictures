@@ -4,6 +4,9 @@ API Used: Unsplash https://unsplash.com/developers
 ### `View App`
 https://react-project-pictures.now.sh/
 
+### `Gratitude`
+Finished first React project. Proud of m'self :_)
+
 ### `How It Works`
 Type in any images you want searched into the search bar! Or make a quick selection from one of the three boxes below! It will then connect to the Unsplash API and get 10 images to show on the screen.
 

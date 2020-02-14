@@ -17,7 +17,13 @@
   justify-content: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
+  .ui.three.cards>.card {
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
   .ui.three.cards>.card {
     height: 150px;
   }
