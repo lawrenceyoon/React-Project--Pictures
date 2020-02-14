@@ -8,7 +8,7 @@ const ClickCard = (props) => {
   };
   
   return (
-    <div className="NatureCard card" onClick={() => onDivClick("nature")}>
+    <div id="NatureCard" className="card" onClick={() => onDivClick("nature")}>
       Nature
     </div>
   );
