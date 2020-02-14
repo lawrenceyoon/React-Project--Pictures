@@ -1,0 +1,6 @@
+div.Sunset.card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../../imgs/naturebg.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  font-weight: bold;
+}
