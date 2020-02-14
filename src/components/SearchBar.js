@@ -22,7 +22,10 @@ const SearchBar = (props) => {
         <form className="ui form" onSubmit={onFormSubmit}>
           <div className="field">
             <label>Image Search: </label>
-            <input type="text" value={searchTerm} onChange={onInputChange} placeholder="Search..." />
+            <div className="ui icon input">
+              <input type="text" value={searchTerm} onChange={onInputChange} placeholder="Search..." />
+              <i class="search icon"></i>
+            </div>
           </div>
         </form>
       </div>

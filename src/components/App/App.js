@@ -5,7 +5,7 @@ import unsplash from '../../apis/unsplash';
 import SearchBar from '../SearchBar';
 import ImageList from '../ImageList';
 
-// import NatureCard from '../NatureCard';
+import NatureCard from '../cards/NatureCard';
 
 const App = () => {
   // state
@@ -36,15 +36,13 @@ const App = () => {
         <div className="ui segment">
           <div className="ui three cards">
 
-            <div onClick={()=> onDivClick("nature")} className="Nature card">
-              Nature
-            </div>
+            <NatureCard onCardClick={onDivClick} />
             
-            <div onClick={()=> onDivClick("sunset")} className="Sunset card">
+            <div onClick={() => onDivClick("sunset")} className="Sunset card">
               Sunset
             </div>
 
-            <div onClick={()=> onDivClick("beach")} className="Beach card">
+            <div onClick={() => onDivClick("beach")} className="Beach card">
               Beach
             </div>
 
@@ -57,5 +55,9 @@ const App = () => {
     </div>
   );
 };
+
+            // <div onClick={()=> onDivClick("nature")} className="Nature card">
+            //   Nature
+            // </div>
 
 export default App;

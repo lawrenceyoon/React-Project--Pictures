@@ -1,5 +1,5 @@
 .App {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("../../imgs/spring.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../../imgs/bg.jpg");
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -8,4 +8,17 @@
 
 .container {
   padding-bottom: 50px;
+}
+
+.ui.three.cards>.card {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .ui.three.cards>.card {
+    height: 150px;
+  }
 }
