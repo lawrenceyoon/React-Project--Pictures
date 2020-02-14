@@ -1,0 +1,6 @@
+#BeachCard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../../imgs/beachbg.jpg);
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}

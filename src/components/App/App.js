@@ -7,6 +7,7 @@ import SearchBar from '../SearchBar';
 import ImageList from '../ImageList';
 import NatureCard from '../cards/NatureCard';
 import SunsetCard from '../cards/SunsetCard';
+import BeachCard from '../cards/BeachCard';
 
 const App = () => {
   // state
@@ -40,9 +41,7 @@ const App = () => {
 
             <SunsetCard onCardClick={onDivClick} />
 
-            <div onClick={() => onDivClick("beach")} className="Beach card">
-              Beach
-            </div>
+            <BeachCard onCardClick={onDivClick} />
           </div>
         </div>
         
