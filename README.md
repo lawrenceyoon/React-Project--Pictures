@@ -12,8 +12,12 @@ Finished first React project. Proud of m'self :\_)
 ### `How It Works`
 
 Type in any images you want searched into the search bar! Or make a quick selection from one of the three boxes below!
+<br />
 ![On App Load Image](/public/imgs/default.png?raw=true 'On Default Load')
+<br />
+<br />
 It will then connect to the Unsplash API and get 10 images to show on the screen.
+<br />
 ![List Images of Sunset](/public/imgs/list-images.png?raw=true 'List of Sunset Images')
 
 ### `App Structure`
